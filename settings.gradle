@@ -1,1 +1,11 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version "${spring_boot_version}"
+        id 'io.spring.dependency-management' version "${spring_dependency_management}"
+        id 'io.freefair.lombok' version "${lombok_version}"
+        id 'org.sonarqube' version "${sonarqube_version}"
+        id "com.gorylenko.gradle-git-properties" version "${gorylenko_gradle_git_properties}"
+    }
+}
+
 rootProject.name = 'mend'
