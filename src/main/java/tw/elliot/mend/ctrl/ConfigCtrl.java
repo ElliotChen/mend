@@ -11,4 +11,8 @@ public class ConfigCtrl {
     public String doSomething() {
         return "";
     }
+    @GetMapping("/another")
+    public String another() {
+        return "";
+    }
 }
